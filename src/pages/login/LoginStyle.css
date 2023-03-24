@@ -1,0 +1,17 @@
+.inputstyling {
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom: 0.1rem solid #658b9e !important;
+  background-color: transparent;
+  width: 100%;
+}
+
+.inputstyling:focus {
+  outline: none !important;
+}
+
+::placeholder {
+  font-weight: bold;
+  font-size: 16px;
+}

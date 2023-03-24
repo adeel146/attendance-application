@@ -1,0 +1,18 @@
+@import "../../../assets//styles/colors.scss";
+
+.dropdown-container {
+  p {
+    text-align: start;
+    margin-bottom: 2px;
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--parentColor);
+  }
+}
+
+.select__menu {
+  border: 1px solid var(--parentColor) !important;
+}
+#react-select-3-listbox {
+  z-index: 9999 !important;
+}

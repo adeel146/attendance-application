@@ -1,0 +1,43 @@
+@import "../assets/styles/colors.scss";
+
+
+.textcolor{
+  color: #054562 !important;
+}
+.Icons {
+  display: flex;
+  justify-content: space-around;
+  justify-items: center;
+
+}
+.PdfIcon {
+  border: 1px solid lightgray;
+  padding: 3rem;
+  cursor: pointer;  
+  border-radius: 5px;
+}
+.PdfIcon:hover{
+    background-color: $primary-red-60;
+  }
+  .PdfIcon:hover{
+    border-color:$primary-red ;
+  }
+.Excelicon {
+  border: 1px solid lightgray;
+  padding: 2rem;
+  padding-top: 3rem;
+  cursor: pointer; 
+  border-radius: 5px;
+}
+.Excelicon:hover{
+    background-color: $primary-green-60;
+    
+  }
+  .Excelicon:hover{
+  border-color:$primary-dark-green-60;
+  }
+.btn{
+    margin-left: 23rem;
+    margin-top: 3rem;
+  
+}

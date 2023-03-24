@@ -1,0 +1,61 @@
+@import "../assets/styles/colors.scss";
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-transform: capitalize;
+  font-weight: bolder;
+}
+
+.closeicon {
+  cursor: pointer;
+}
+.title {
+  font-size: 18px;
+  color: var(--parentColor)-blue;
+}
+.downloadtempleteheading {
+  display: flex;
+  align-items: center;
+  padding-bottom: 0.5rem;
+  color: var(--parentColor)-blue;
+}
+.tag {
+  color: var(--parentOrange);
+  font-size: 16px;
+  cursor: pointer;
+}
+.download {
+  color: var(--parentColor)-blue;
+  font-size: 14px;
+  padding-left: 1rem;
+}
+.Border {
+  border: 2px dashed var(--parentColor);
+  border-radius: 5px;
+  margin: 10px;
+}
+.gifimg {
+  width: 90%;
+  height: 40vh;
+
+  display: flex;
+  justify-items: center;
+}
+.insideimgtext {
+  text-align: center;
+  font-size: 16px;
+  color: var(--parentColor)-blue;
+  margin-bottom: 1.5rem;
+}
+.bold {
+  font-weight: bolder;
+  font-size: 18px;
+  color: var(--parentColor)-blue;
+}
+
+.Cancelbtn {
+  margin-top: 1rem;
+  margin-left: 17rem;
+}

@@ -1,0 +1,33 @@
+@import "../assets/styles/colors.scss";
+
+.Header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 18px;
+  color: #054562;
+  text-transform: capitalize;
+  font-weight: bolder;
+}
+// .title{
+//     color: #054562 !important;
+// }
+.CrossIcon {
+  margin-bottom: 0.2rem;
+  cursor: pointer;
+}
+.group {
+  font-size: 16px;
+  color: #054562;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  color: var(--parentColor)-blue;
+}
+.btns {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 2rem;
+}
+.btn1 {
+  margin-right: 1rem;
+}

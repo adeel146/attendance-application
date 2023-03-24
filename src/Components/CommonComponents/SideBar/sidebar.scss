@@ -1,0 +1,53 @@
+@import "../../../assets/styles/colors.scss";
+
+.parent-div {
+  height: calc(100vh - 3.8em);
+  background-color: $white-color;
+  width: 15em;
+  font-weight: 600;
+  border-right: 1px solid var(--parentColor)-60;
+  color: var(--parentColor);
+  li {
+    display: flex;
+    padding: 12px 33px;
+    cursor: pointer;
+    .icon {
+      color: var(--parentColor);
+      margin-right: 10px;
+    }
+    .icon:hover {
+      color: black;
+    }
+  }
+  li:hover {
+    color: var(--parentOrange);
+    .icon {
+      color: var(--parentOrange);
+    }
+  }
+  .icon-tab {
+    width: max-content;
+    cursor: pointer;
+    color: var(--parentColor);
+  }
+  .icon-tab:hover {
+    color: var(--parentOrange);
+  }
+
+  .active_class {
+    background-color: var(--parentOrange);
+    color: white;
+    .icon {
+      color: white !important;
+    }
+  }
+  .active_class:hover {
+    color: white;
+  }
+}
+.toggleclass {
+  width: 6em;
+  li > span {
+    display: none;
+  }
+}

@@ -1,0 +1,23 @@
+@import url("./colors.scss");
+
+@mixin button-style(
+  $bg-color: $gray-color,
+  $color: $white-color,
+  $padding: 0.6rem 1.6rem,
+  $radius: 1.5rem,
+  $border: none,
+  $margin: $margin,
+  $font-size: $font-size,
+  $box-shadow: $box-shadow
+) {
+  border: $border;
+  outline: none;
+  border-radius: $radius;
+  padding: $padding;
+  background: $bg-color;
+  color: $color;
+  margin: $margin;
+  font-size: $font-size;
+  font-weight: 500;
+  box-shadow: $box-shadow;
+}

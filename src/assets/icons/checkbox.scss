@@ -1,0 +1,13 @@
+@import "../../../assets/styles/colors.scss";
+
+input[type="checkbox"]:before {
+  content: "";
+  display: flex;
+  width: 12px;
+  height: 12px;
+  background: red;
+  top: 0;
+}
+input[type="checkbox"]:checked:before {
+  background: green;
+}

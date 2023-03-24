@@ -1,0 +1,24 @@
+@import "./assets/styles/colors.scss";
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+}
+.break-me {
+  display: flex;
+  padding: 10px;
+}
+.pagination {
+  display: flex;
+}
+
+.pagination li a {
+  font-weight: bold;
+  font-size: 12px;
+  padding: 6px !important;
+  text-decoration: none !important;
+}
+.pagination-blue li a {
+  color: $white-color;
+}
+.pagination-blue li .active-link {
+  border: 1px solid $white-color;
+}
